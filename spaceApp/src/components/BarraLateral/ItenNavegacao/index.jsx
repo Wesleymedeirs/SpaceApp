@@ -16,8 +16,9 @@ const ItenNavegacao = ({children, ativo = false, inconeAtivo, iconeInativo}) => 
   return (
     <ItemListaEstilizado $ativo={ativo}>       
                 < img src={ ativo ? inconeAtivo : iconeInativo} alt="casa" />                 
-                {children}         
+                {children}                 
     </ItemListaEstilizado>
+
   )
 }
 
